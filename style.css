@@ -12,3 +12,7 @@ body {
 .navbar-brand>.material-icons-outlined {
     font-size: 40px;
 }
+
+.about>.material-icons-outlined {
+    font-size: 50px;
+}
