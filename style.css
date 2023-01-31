@@ -16,3 +16,11 @@ body {
 .about>.material-icons-outlined {
     font-size: 50px;
 }
+
+.card>img {
+    height: 250px;
+}
+
+#map {
+    height: 300px;
+}
