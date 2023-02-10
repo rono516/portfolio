@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="col-xl-5 col-xxl-6 justify-content-center">
-                        <img class="img-fluid rounded-3 my-5" src="images/hero.jpg" alt="hero image">
+                        <img class="img-fluid rounded-3 my-5" src="images/rono.jpg" alt="hero image">
                     </div>
                 </div>
             </div>
@@ -289,9 +289,15 @@
 
     <footer class="text-center py-4 bg-light">
         <div class="container px-5 mb-2">
-            Copyright &copy; 2023 Collins Kiplangat Rono
+            Copyright &copy; <span id="year">2023</span> Collins Kiplangat Rono
         </div>
     </footer>
+
+    <script>
+        addEventListener("load", (event) => {
+            document.querySelector("#year").innerHTML = new Date().getFullYear()
+        });
+    </script>
     <!-- End Footer -->
 
     <!-- bootstrap JS -->
