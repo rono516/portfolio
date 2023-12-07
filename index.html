@@ -19,9 +19,18 @@
     <main class="mx-auto">
 
         <div class="bg-bg-color md:mx-12">
+
             <!-- Navbar -->
             <header>
-                <nav class="hidden md:block">
+                <!-- Mobile menu btn -->
+                <div class="flex md:hidden justify-between">
+                    <div class="m-4 text-center font-bold text-2xl">
+                        <a href="/">Collins Kiplangat Rono</a>
+                    </div>
+                    <button onclick="toggleMenu()" class="text-3xl m-4  cursor-pointer">&#9776;</button>
+
+                </div>
+                <nav id="navbar" class="hidden md:block">
                     <div class=" px-4 py-6">
                         <!-- logo -->
                         <!-- <div class="font-bold text-2xl">
@@ -83,6 +92,7 @@
                                 </a>
                             </div>
 
+
                             <a class="hover:text-black text-gray-700 hover:animate-pulse font-bold" href="/">Home</a>
                             <a class="hover:text-black text-gray-700 hover:animate-pulse font-bold"
                                 href="#projects">Projects</a>
@@ -103,7 +113,7 @@
                         </div>
                     </div>
                 </nav>
-                <button class="text-3xl ml-10 md:hidden cursor-pointer">&#9776;</button>
+
 
             </header>
 
@@ -115,7 +125,8 @@
                 <div class="flex items-center mx-auto flex-col-reverse md:flex-row px-3 space-y-0 md:space-y-0 mt-10">
 
                     <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-                        <h1 class="max-w-md mt-3 text-4xl text-gray-700 text-center md:text-5xl md:text-left font-bold">
+                        <h1
+                            class="max-w-md hidden md:block mt-3 text-4xl text-gray-700 text-center md:text-5xl md:text-left font-bold">
                             Collins Kiplangat Rono
                         </h1>
                         <p class="max-w-lg text-center md:text-left">I am a software developer with experience building
@@ -356,7 +367,7 @@
                         <div class="flex flex-col">
                             <div class="flex space-x-2">
                                 <div>
-                                    <img height="25" width="25" src="assets/call.svg" alt="email logo">
+                                    <img height="25" width="25" src="assets/call.svg" alt="call logo">
 
                                 </div>
                                 <div class="font-bold text-gray-700">
@@ -479,6 +490,15 @@
 
         <!-- End footer Section -->
     </main>
+
+
+    <script>
+        function toggleMenu() {
+            var navbar = document.getElementById("navbar");
+            navbar.classList.toggle("hidden");
+
+        }
+    </script>
 
 
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
