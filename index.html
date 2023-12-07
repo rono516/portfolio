@@ -288,6 +288,7 @@
 
             <div class="py-10 flex justify-center items-center">
 
+                <!-- <form name="contactForm" action="core/send_email.php" method="POST" onsubmit="return validate_form()"> -->
                 <form action="">
                     <div class="flex flex-col md:flex-row space-x-4 my-2">
                         <div class="space-y-3">
@@ -321,7 +322,7 @@
                         <div>
                             <input
                                 class="shadow appearance-none border md:w-full rounded-md py-2 px-3 text-gray-700  border-black focus:border-blue-600"
-                                type="email" required id="email" name="last_name" placeholder="Email address">
+                                type="email" required id="email" name="email" placeholder="Email address">
                         </div>
                     </div>
                     <div class="space-y-3 my-2">
@@ -491,6 +492,36 @@
 
         <!-- End footer Section -->
     </main>
+
+    <script>
+        function validate_form() {
+            var contact_name = document.forms["contactForm"]['first_name'].value;
+            var contact_email = document.forms["contactForm"]['email'].value;
+            var contact_message = document.forms["contactForm"]['message'].value;
+            var validRegex = "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/";
+
+            if (contact_name == "") {
+                alert("Please add your name to help us get you feedback");
+                return false;
+            }
+            if (contact_email == "") {
+                alert("Please add your email to help us get you feedback");
+                return false;
+            }
+            if (contact_email.match(validRegex)) {
+                return true;
+            }
+            // else {
+            //     alert("Please add a valid email to help us get you feedback");
+            // }
+            if (contact_message == "") {
+                alert("Please add your message to help us get you feedback");
+                return false;
+            }
+
+        }
+    </script>
+
 
 
     <script>
