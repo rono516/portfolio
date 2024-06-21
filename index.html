@@ -1,329 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rono Collins - Handle the business I handle the tech</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
-    <link rel="stylesheet" href="css/main.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rono Collins - Handle the business I handle the tech</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+        <link rel="stylesheet" href="css/main.css">
 
-    <!-- BoxIcons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- BoxIcons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
 
-</head>
+    </head>
 
-<body class="bg-gradient-to-r from-white to-gray-100">
+    <body class="bg-gradient-to-r from-white to-gray-100">
 
+        <!-- main -->
+        <main class="mx-auto">
 
-    <!-- main -->
-    <main class="mx-auto">
+            <div class>
+                <div class="md:mx-12">
 
+                    <!-- Navbar -->
+                    <header>
+                        <!-- Mobile menu btn -->
+                        <div class="flex md:hidden justify-between">
+                            <div class="m-4 text-left font-bold text-2xl">
+                                <a href="/">Collins Kiplangat Rono</a>
+                            </div>
+                            <button onclick="toggleMenu()"
+                                class="text-3xl m-4  cursor-pointer">&#9776;</button>
 
-        <div class="">
-            <div class="md:mx-12">
-
-                <!-- Navbar -->
-                <header>
-                    <!-- Mobile menu btn -->
-                    <div class="flex md:hidden justify-between">
-                        <div class="m-4 text-left font-bold text-2xl">
-                            <a href="/">Collins Kiplangat Rono</a>
                         </div>
-                        <button onclick="toggleMenu()" class="text-3xl m-4  cursor-pointer">&#9776;</button>
+                        <nav id="navbar" class="hidden md:block">
+                            <div class="px-4 md:py-6">
+
+                                <div
+                                    class=" md:flex space-x-0 flex flex-col md:flex-row my-4 md:my-0 z-1 md:z-auto space-y-4 md:space-y-0 md:space-x-6 justify-between">
+
+                                    <div class="flex space-x-3">
+
+                                        <a target="_blank"
+                                            href="https://github.com/rono516">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                x="0px" y="0px" width="30"
+                                                height="30"
+                                                viewBox="0,0,256,256">
+                                                <g fill="#4a5568"
+                                                    fill-rule="nonzero"
+                                                    stroke="none"
+                                                    stroke-width="1"
+                                                    stroke-linecap="butt"
+                                                    stroke-linejoin="miter"
+                                                    stroke-miterlimit="10"
+                                                    stroke-dasharray
+                                                    stroke-dashoffset="0"
+                                                    font-family="none"
+                                                    font-weight="none"
+                                                    font-size="none"
+                                                    text-anchor="none"
+                                                    style="mix-blend-mode: normal">
+                                                    <g
+                                                        transform="scale(5.12,5.12)">
+                                                        <path
+                                                            d="M17.791,46.836c0.711,-0.306 1.209,-1.013 1.209,-1.836v-5.4c0,-0.197 0.016,-0.402 0.041,-0.61c-0.014,0.004 -0.027,0.007 -0.041,0.01c0,0 -3,0 -3.6,0c-1.5,0 -2.8,-0.6 -3.4,-1.8c-0.7,-1.3 -1,-3.5 -2.8,-4.7c-0.3,-0.2 -0.1,-0.5 0.5,-0.5c0.6,0.1 1.9,0.9 2.7,2c0.9,1.1 1.8,2 3.4,2c2.487,0 3.82,-0.125 4.622,-0.555c0.934,-1.389 2.227,-2.445 3.578,-2.445v-0.025c-5.668,-0.182 -9.289,-2.066 -10.975,-4.975c-3.665,0.042 -6.856,0.405 -8.677,0.707c-0.058,-0.327 -0.108,-0.656 -0.151,-0.987c1.797,-0.296 4.843,-0.647 8.345,-0.714c-0.112,-0.276 -0.209,-0.559 -0.291,-0.849c-3.511,-0.178 -6.541,-0.039 -8.187,0.097c-0.02,-0.332 -0.047,-0.663 -0.051,-0.999c1.649,-0.135 4.597,-0.27 8.018,-0.111c-0.079,-0.5 -0.13,-1.011 -0.13,-1.543c0,-1.7 0.6,-3.5 1.7,-5c-0.5,-1.7 -1.2,-5.3 0.2,-6.6c2.7,0 4.6,1.3 5.5,2.1c1.699,-0.701 3.599,-1.101 5.699,-1.101c2.1,0 4,0.4 5.6,1.1c0.9,-0.8 2.8,-2.1 5.5,-2.1c1.5,1.4 0.7,5 0.2,6.6c1.1,1.5 1.7,3.2 1.6,5c0,0.484 -0.045,0.951 -0.11,1.409c3.499,-0.172 6.527,-0.034 8.204,0.102c-0.002,0.337 -0.033,0.666 -0.051,0.999c-1.671,-0.138 -4.775,-0.28 -8.359,-0.089c-0.089,0.336 -0.197,0.663 -0.325,0.98c3.546,0.046 6.665,0.389 8.548,0.689c-0.043,0.332 -0.093,0.661 -0.151,0.987c-1.912,-0.306 -5.171,-0.664 -8.879,-0.682c-1.665,2.878 -5.22,4.755 -10.777,4.974v0.031c2.6,0 5,3.9 5,6.6v5.4c0,0.823 0.498,1.53 1.209,1.836c9.161,-3.032 15.791,-11.672 15.791,-21.836c0,-12.682 -10.317,-23 -23,-23c-12.683,0 -23,10.318 -23,23c0,10.164 6.63,18.804 15.791,21.836z">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                        <a target="_blank"
+                                            href="https://twitter.com/collins_rono_">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                x="0px" y="0px" width="30"
+                                                height="30"
+                                                viewBox="0,0,256,256">
+                                                <g fill="#4a5568"
+                                                    fill-rule="nonzero"
+                                                    stroke="none"
+                                                    stroke-width="1"
+                                                    stroke-linecap="butt"
+                                                    stroke-linejoin="miter"
+                                                    stroke-miterlimit="10"
+                                                    stroke-dasharray
+                                                    stroke-dashoffset="0"
+                                                    font-family="none"
+                                                    font-weight="none"
+                                                    font-size="none"
+                                                    text-anchor="none"
+                                                    style="mix-blend-mode: normal">
+                                                    <g
+                                                        transform="scale(5.12,5.12)">
+                                                        <path
+                                                            d="M50.0625,10.4375c-1.84766,0.82031 -3.82812,1.37109 -5.91016,1.62109c2.125,-1.27344 3.75781,-3.28906 4.52344,-5.6875c-1.98437,1.17578 -4.19141,2.03125 -6.53125,2.49219c-1.875,-2 -4.54687,-3.24609 -7.50391,-3.24609c-5.67969,0 -10.28516,4.60156 -10.28516,10.28125c0,0.80469 0.09375,1.58984 0.26953,2.34375c-8.54687,-0.42969 -16.12109,-4.52344 -21.19531,-10.74609c-0.88672,1.52344 -1.39062,3.28906 -1.39062,5.17187c0,3.56641 1.8125,6.71484 4.57422,8.5625c-1.6875,-0.05469 -3.27344,-0.51953 -4.66016,-1.28906c0,0.04297 0,0.08594 0,0.12891c0,4.98438 3.54688,9.13672 8.24609,10.08594c-0.85937,0.23438 -1.76953,0.35938 -2.70703,0.35938c-0.66406,0 -1.30859,-0.0625 -1.9375,-0.1875c1.3125,4.08203 5.10938,7.0625 9.60547,7.14453c-3.51562,2.75781 -7.94922,4.39844 -12.76953,4.39844c-0.83203,0 -1.64844,-0.04687 -2.44922,-0.14453c4.54687,2.92188 9.95312,4.62109 15.76172,4.62109c18.91406,0 29.25781,-15.66797 29.25781,-29.25391c0,-0.44531 -0.01172,-0.89453 -0.02734,-1.33203c2.00781,-1.44922 3.75,-3.26172 5.12891,-5.32422z">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                        <a target="_blank"
+                                            href="https://www.facebook.com/collins.sharks.3">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                x="0px" y="0px" width="30"
+                                                height="30"
+                                                viewBox="0,0,256,256">
+                                                <g fill="#4a5568"
+                                                    fill-rule="nonzero"
+                                                    stroke="none"
+                                                    stroke-width="1"
+                                                    stroke-linecap="butt"
+                                                    stroke-linejoin="miter"
+                                                    stroke-miterlimit="10"
+                                                    stroke-dasharray
+                                                    stroke-dashoffset="0"
+                                                    font-family="none"
+                                                    font-weight="none"
+                                                    font-size="none"
+                                                    text-anchor="none"
+                                                    style="mix-blend-mode: normal">
+                                                    <g
+                                                        transform="scale(5.12,5.12)">
+                                                        <path
+                                                            d="M25,3c-12.15,0 -22,9.85 -22,22c0,11.03 8.125,20.137 18.712,21.728v-15.897h-5.443v-5.783h5.443v-3.848c0,-6.371 3.104,-9.168 8.399,-9.168c2.536,0 3.877,0.188 4.512,0.274v5.048h-3.612c-2.248,0 -3.033,2.131 -3.033,4.533v3.161h6.588l-0.894,5.783h-5.694v15.944c10.738,-1.457 19.022,-10.638 19.022,-21.775c0,-12.15 -9.85,-22 -22,-22z">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+
+                                    <a
+                                        class="hover:text-black text-gray-700 hover:animate-pulse font-bold"
+                                        href="/">Home</a>
+                                    <a
+                                        class="hover:text-black text-gray-700 hover:animate-pulse font-bold"
+                                        href="#projects">Projects</a>
+                                    <a target="_blank"
+                                        class="hover:text-black text-gray-700 animate-bounce font-bold"
+                                        href="https://drive.google.com/file/d/1tDkT6J6lU9htHGWeSNxWJo2iky34BkRA/view?usp=sharing">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            height="26" width="26"
+                                            viewBox="0 0 512 512">
+                                            <path
+                                                d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+                                        </svg>
+
+                                    </a>
+                                    <a
+                                        class="hover:text-black text-gray-700 hover:animate-pulse font-bold"
+                                        href="#contact">Contact</a>
+
+                                </div>
+                            </div>
+                        </nav>
+
+                    </header>
+                </div>
+            </div>
+            <!-- End navbar -->
+
+            <!-- Hero Section -->
+
+            <section class id="hero">
+                <div class="md:mx-12 ">
+                    <div
+                        class="flex flex-col-reverse md:flex-row px-3 space-y-0 md:space-y-0 mt-10">
+
+                        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                            <h1
+                                class="max-w-md hidden md:block mt-3 text-4xl text-gray-700 text-center md:text-5xl md:text-left font-bold">
+                                Collins Kiplangat Rono
+                            </h1>
+                            <p class="max-w-lg text-center md:text-left">I am a
+                                software developer with experience building
+                                full
+                                stack web applications and mobile applications.
+                                I will create modern designs and develop
+                                responsive, scalable, and fast applications
+                                using the best standards and coding practices.
+                                Once
+                                the application is ready, I will help you launch
+                                it and teach you how to update and maintain
+                                it.
+                            </p>
+                            <div class="flex justify-center md:justify-start">
+                                <a href="#contact"
+                                    class="p-5 text-white hover:bg-white hover:text-gray-700 bg-gray-700 rounded-full baseline">Let's
+                                    talk about your project</a>
+                            </div>
+                        </div>
+
+                        <div class="md:w-1/2 flex justify-center  items-center">
+                            <img src="assets/rono.png"
+                                class="rounded-full transform transition-all hover:scale-125"
+                                alt
+                                srcset>
+                        </div>
 
                     </div>
-                    <nav id="navbar" class="hidden md:block">
-                        <div class="px-4 md:py-6">
+                </div>
+            </section>
 
-                            <div
-                                class=" md:flex space-x-0 flex flex-col md:flex-row my-4 md:my-0 z-1 md:z-auto space-y-4 md:space-y-0 md:space-x-6 justify-between">
+            <!-- End hero section -->
 
-                                <div class="flex space-x-3">
+            <!-- Projects Section -->
+            <section class="text-gray-700" id="projects">
+                <div class="md:mx-12">
+                    <div
+                        class="mt-10 space-y-0 md:space-y-0 text-center text-4xl py-10 font-bold">
+                        Projects
+                    </div>
+                    <div class="grid  md:grid-cols-4  md:gap-4">
+                        <div
+                            class="mx-auto p-5 hover:shadow-black hover:shadow-sm shadow-xl">
+                            <div class="flex flex-col bg-white ">
+                                <div class="hover:blur-sm">
+                                    <img src="assets/neet.png" alt>
+                                </div>
+                                <div>
+                                    <p
+                                        class="pt-2 mt-2 text-xl text-gray-700 font-bold text-left">Neet
+                                        Rentals</p>
+                                    <p class="pt-2 mt-2 text-left">Rental
+                                        management application using Laravel,
+                                        Vue.js and
+                                        Bootstrap to help in rental
+                                        management.</p>
 
-
-                                    <a target="_blank" href="https://github.com/rono516">
-                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
-                                            viewBox="0,0,256,256">
-                                            <g fill="#4a5568" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                                stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                                stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                                font-weight="none" font-size="none" text-anchor="none"
-                                                style="mix-blend-mode: normal">
-                                                <g transform="scale(5.12,5.12)">
-                                                    <path
-                                                        d="M17.791,46.836c0.711,-0.306 1.209,-1.013 1.209,-1.836v-5.4c0,-0.197 0.016,-0.402 0.041,-0.61c-0.014,0.004 -0.027,0.007 -0.041,0.01c0,0 -3,0 -3.6,0c-1.5,0 -2.8,-0.6 -3.4,-1.8c-0.7,-1.3 -1,-3.5 -2.8,-4.7c-0.3,-0.2 -0.1,-0.5 0.5,-0.5c0.6,0.1 1.9,0.9 2.7,2c0.9,1.1 1.8,2 3.4,2c2.487,0 3.82,-0.125 4.622,-0.555c0.934,-1.389 2.227,-2.445 3.578,-2.445v-0.025c-5.668,-0.182 -9.289,-2.066 -10.975,-4.975c-3.665,0.042 -6.856,0.405 -8.677,0.707c-0.058,-0.327 -0.108,-0.656 -0.151,-0.987c1.797,-0.296 4.843,-0.647 8.345,-0.714c-0.112,-0.276 -0.209,-0.559 -0.291,-0.849c-3.511,-0.178 -6.541,-0.039 -8.187,0.097c-0.02,-0.332 -0.047,-0.663 -0.051,-0.999c1.649,-0.135 4.597,-0.27 8.018,-0.111c-0.079,-0.5 -0.13,-1.011 -0.13,-1.543c0,-1.7 0.6,-3.5 1.7,-5c-0.5,-1.7 -1.2,-5.3 0.2,-6.6c2.7,0 4.6,1.3 5.5,2.1c1.699,-0.701 3.599,-1.101 5.699,-1.101c2.1,0 4,0.4 5.6,1.1c0.9,-0.8 2.8,-2.1 5.5,-2.1c1.5,1.4 0.7,5 0.2,6.6c1.1,1.5 1.7,3.2 1.6,5c0,0.484 -0.045,0.951 -0.11,1.409c3.499,-0.172 6.527,-0.034 8.204,0.102c-0.002,0.337 -0.033,0.666 -0.051,0.999c-1.671,-0.138 -4.775,-0.28 -8.359,-0.089c-0.089,0.336 -0.197,0.663 -0.325,0.98c3.546,0.046 6.665,0.389 8.548,0.689c-0.043,0.332 -0.093,0.661 -0.151,0.987c-1.912,-0.306 -5.171,-0.664 -8.879,-0.682c-1.665,2.878 -5.22,4.755 -10.777,4.974v0.031c2.6,0 5,3.9 5,6.6v5.4c0,0.823 0.498,1.53 1.209,1.836c9.161,-3.032 15.791,-11.672 15.791,-21.836c0,-12.682 -10.317,-23 -23,-23c-12.683,0 -23,10.318 -23,23c0,10.164 6.63,18.804 15.791,21.836z">
-                                                    </path>
-                                                </g>
-                                            </g>
+                                </div>
+                                <div class="flex space-x-4 py-3">
+                                    <a href><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="m7.375 16.781l1.25-1.562L4.601 12l4.024-3.219l-1.25-1.562l-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219l1.25 1.562l5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003l-4 18l-1.953-.434l4-18z" />
                                         </svg>
                                     </a>
-                                    <a target="_blank" href="https://twitter.com/collins_rono_">
-                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
-                                            viewBox="0,0,256,256">
-                                            <g fill="#4a5568" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                                stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                                stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                                font-weight="none" font-size="none" text-anchor="none"
-                                                style="mix-blend-mode: normal">
-                                                <g transform="scale(5.12,5.12)">
-                                                    <path
-                                                        d="M50.0625,10.4375c-1.84766,0.82031 -3.82812,1.37109 -5.91016,1.62109c2.125,-1.27344 3.75781,-3.28906 4.52344,-5.6875c-1.98437,1.17578 -4.19141,2.03125 -6.53125,2.49219c-1.875,-2 -4.54687,-3.24609 -7.50391,-3.24609c-5.67969,0 -10.28516,4.60156 -10.28516,10.28125c0,0.80469 0.09375,1.58984 0.26953,2.34375c-8.54687,-0.42969 -16.12109,-4.52344 -21.19531,-10.74609c-0.88672,1.52344 -1.39062,3.28906 -1.39062,5.17187c0,3.56641 1.8125,6.71484 4.57422,8.5625c-1.6875,-0.05469 -3.27344,-0.51953 -4.66016,-1.28906c0,0.04297 0,0.08594 0,0.12891c0,4.98438 3.54688,9.13672 8.24609,10.08594c-0.85937,0.23438 -1.76953,0.35938 -2.70703,0.35938c-0.66406,0 -1.30859,-0.0625 -1.9375,-0.1875c1.3125,4.08203 5.10938,7.0625 9.60547,7.14453c-3.51562,2.75781 -7.94922,4.39844 -12.76953,4.39844c-0.83203,0 -1.64844,-0.04687 -2.44922,-0.14453c4.54687,2.92188 9.95312,4.62109 15.76172,4.62109c18.91406,0 29.25781,-15.66797 29.25781,-29.25391c0,-0.44531 -0.01172,-0.89453 -0.02734,-1.33203c2.00781,-1.44922 3.75,-3.26172 5.12891,-5.32422z">
-                                                    </path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </a>
-                                    <a target="_blank" href="https://www.facebook.com/collins.sharks.3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
-                                            viewBox="0,0,256,256">
-                                            <g fill="#4a5568" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                                stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                                stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                                font-weight="none" font-size="none" text-anchor="none"
-                                                style="mix-blend-mode: normal">
-                                                <g transform="scale(5.12,5.12)">
-                                                    <path
-                                                        d="M25,3c-12.15,0 -22,9.85 -22,22c0,11.03 8.125,20.137 18.712,21.728v-15.897h-5.443v-5.783h5.443v-3.848c0,-6.371 3.104,-9.168 8.399,-9.168c2.536,0 3.877,0.188 4.512,0.274v5.048h-3.612c-2.248,0 -3.033,2.131 -3.033,4.533v3.161h6.588l-0.894,5.783h-5.694v15.944c10.738,-1.457 19.022,-10.638 19.022,-21.775c0,-12.15 -9.85,-22 -22,-22z">
-                                                    </path>
-                                                </g>
-                                            </g>
+                                    <a target="_blank"
+                                        href="https://rentals.beric.co.ke/">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2l1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z" />
                                         </svg>
                                     </a>
                                 </div>
-
-
-                                <a class="hover:text-black text-gray-700 hover:animate-pulse font-bold"
-                                    href="/">Home</a>
-                                <a class="hover:text-black text-gray-700 hover:animate-pulse font-bold"
-                                    href="#projects">Projects</a>
-                                <a target="_blank" class="hover:text-black text-gray-700 animate-bounce font-bold"
-                                    href="https://drive.google.com/file/d/1o522zH81nF8FtdY8LRcVmxz8vYztIGTQ/view?usp=sharing"
-                                    >
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="26" width="26"
-                                        viewBox="0 0 512 512">
-                                        <path
-                                            d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-                                    </svg>
-
-
-
-                                </a>
-                                <a class="hover:text-black text-gray-700 hover:animate-pulse font-bold"
-                                    href="#contact">Contact</a>
-
-
                             </div>
                         </div>
-                    </nav>
+                        <div
+                            class="mx-auto p-5 hover:shadow-black hover:shadow-sm shadow-xl">
+                            <div class="flex flex-col bg-white ">
+                                <div class="hover:blur-sm">
+                                    <img src="assets/app3.png" alt>
+                                </div>
+                                <div>
+                                    <p
+                                        class="pt-2 mt-2 text-xl text-gray-700 font-bold text-left">Esafi</p>
+                                    <p class="pt-2 mt-2 text-left">A mobile
+                                        application developed with Dart/Flutter
+                                        to
+                                        improve
+                                        waste collection in smart cities.</p>
 
-
-                </header>
-            </div>
-        </div>
-        <!-- End navbar -->
-
-        <!-- Hero Section -->
-
-        <section class="" id="hero">
-            <div class="md:mx-12 ">
-                <div class="flex flex-col-reverse md:flex-row px-3 space-y-0 md:space-y-0 mt-10">
-
-                    <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-                        <h1
-                            class="max-w-md hidden md:block mt-3 text-4xl text-gray-700 text-center md:text-5xl md:text-left font-bold">
-                            Collins Kiplangat Rono
-                        </h1>
-                        <p class="max-w-lg text-center md:text-left">I am a software developer with experience building
-                            full
-                            stack web applications and mobile applications. I will create modern designs and develop
-                            responsive, scalable, and fast applications using the best standards and coding practices.
-                            Once
-                            the application is ready, I will help you launch it and teach you how to update and maintain
-                            it.
-                        </p>
-                        <div class="flex justify-center md:justify-start">
-                            <a href="#contact"
-                                class="p-5 text-white hover:bg-white hover:text-gray-700 bg-gray-700 rounded-full baseline">Let's
-                                talk about your project</a>
+                                </div>
+                                <div class="flex space-x-4 py-3">
+                                    <a target="_blank"
+                                        href="https://github.com/rono516/e_safi"><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="m7.375 16.781l1.25-1.562L4.601 12l4.024-3.219l-1.25-1.562l-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219l1.25 1.562l5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003l-4 18l-1.953-.434l4-18z" />
+                                        </svg>
+                                    </a>
+                                    <a target="_blank"
+                                        href="https://github.com/rono516/e_safi">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2l1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+                        <div
+                            class="mx-auto p-5 hover:shadow-black hover:shadow-sm shadow-xl">
+                            <div class="flex flex-col bg-white ">
+                                <div class="hover:blur-sm">
+                                    <img src="assets/elearn.png" alt>
+                                </div>
+                                <div>
+                                    <p
+                                        class="pt-2 mt-2 text-xl text-gray-700 font-bold text-left">E-learning
+                                        platform</p>
+                                    <p class="pt-2 mt-2 text-left">A fullstack
+                                        e-learning platform developed with
+                                        Laravel,
+                                        Bootstrap to allow seamless learning
+                                        online</p>
+
+                                </div>
+                                <div class="flex space-x-4 py-3">
+                                    <a target="_blank"
+                                        href="https://github.com/rono516/LMS"><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="m7.375 16.781l1.25-1.562L4.601 12l4.024-3.219l-1.25-1.562l-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219l1.25 1.562l5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003l-4 18l-1.953-.434l4-18z" />
+                                        </svg>
+                                    </a>
+                                    <a target="_blank"
+                                        href="https://github.com/rono516/LMS">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2l1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="mx-auto p-5 hover:shadow-black hover:shadow-sm shadow-xl">
+                            <div class="flex flex-col bg-white ">
+                                <div class="hover:blur-sm">
+                                    <img src="assets/frs.png" alt>
+                                </div>
+                                <div>
+                                    <p
+                                        class="pt-2 mt-2 text-xl text-gray-700 font-bold text-left">Fast
+                                        Remote Services</p>
+                                    <p class="pt-2 mt-2 text-left">Website to
+                                        showcase the services offered by the
+                                        digital
+                                        learning company Fast Remote
+                                        Services.</p>
+
+                                </div>
+                                <div class="flex space-x-4 py-3">
+                                    <a target="_blank"
+                                        href="#"><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="m7.375 16.781l1.25-1.562L4.601 12l4.024-3.219l-1.25-1.562l-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219l1.25 1.562l5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003l-4 18l-1.953-.434l4-18z" />
+                                        </svg>
+                                    </a>
+                                    <a target="_blank"
+                                        href="https://fastremoteservices.co.ke/">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2l1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="mx-auto p-5 hover:shadow-black hover:shadow-sm shadow-xl">
+                            <div class="flex flex-col bg-white ">
+                                <div class="hover:blur-sm">
+                                    <img src="assets/projects.png" alt>
+                                </div>
+                                <div>
+                                    <p
+                                        class="pt-2 mt-2 text-xl text-gray-700 font-bold text-left">Personal
+                                        portfolio</p>
+                                    <p class="pt-2 mt-2 text-left">A simple
+                                        responsive website to showcase my skills
+                                        in
+                                        Tailwind
+                                        and frontend development.</p>
+
+                                </div>
+                                <div class="flex space-x-4 py-3">
+                                    <a target="_blank"
+                                        href="https://ronocollins.netlify.app/"><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="m7.375 16.781l1.25-1.562L4.601 12l4.024-3.219l-1.25-1.562l-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219l1.25 1.562l5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003l-4 18l-1.953-.434l4-18z" />
+                                        </svg>
+                                    </a>
+                                    <a target="_blank"
+                                        href="https://ronocollins.netlify.app/">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2l1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-
-                    <div class="md:w-1/2 flex justify-center  items-center">
-                        <img src="assets/rono.png" class="rounded-full transform transition-all hover:scale-125" alt=""
-                            srcset="">
-                    </div>
-
-
-
                 </div>
-            </div>
-        </section>
+            </section>
 
+            <!-- End projects section -->
 
-        <!-- End hero section -->
+            <!-- Start Contact Section -->
 
-        <!-- Projects Section -->
-        <section class="text-gray-700" id="projects">
-            <div class="md:mx-12">
-                <div class="mt-10 space-y-0 md:space-y-0 text-center text-4xl py-10 font-bold">
-                    Projects
+            <section id="contact">
+                <div
+                    class="text-center text-gray-700 text-3xl font-bold mt-10 py-10">
+                    Let's connect
                 </div>
-                <div class="grid  md:grid-cols-4  md:gap-4">
-                    <div class="mx-auto p-5 hover:shadow-black hover:shadow-sm shadow-xl">
-                        <div class="flex flex-col bg-white ">
-                            <div class="hover:blur-sm">
-                                <img src="assets/neet.png" alt="">
-                            </div>
-                            <div>
-                                <p class="pt-2 mt-2 text-xl text-gray-700 font-bold text-left">Neet Rentals</p>
-                                <p class="pt-2 mt-2 text-left">Rental management application using Laravel, Vue.js and
-                                    Bootstrap to help in rental management.</p>
 
-                            </div>
-                            <div class="flex space-x-4 py-3">
-                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="m7.375 16.781l1.25-1.562L4.601 12l4.024-3.219l-1.25-1.562l-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219l1.25 1.562l5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003l-4 18l-1.953-.434l4-18z" />
-                                    </svg>
-                                </a>
-                                <a target="_blank" href="https://rentals.beric.co.ke/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2l1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mx-auto p-5 hover:shadow-black hover:shadow-sm shadow-xl">
-                        <div class="flex flex-col bg-white ">
-                            <div class="hover:blur-sm">
-                                <img src="assets/app3.png" alt="">
-                            </div>
-                            <div>
-                                <p class="pt-2 mt-2 text-xl text-gray-700 font-bold text-left">Esafi</p>
-                                <p class="pt-2 mt-2 text-left">A mobile application developed with Dart/Flutter to
-                                    improve
-                                    waste collection in smart cities.</p>
-
-                            </div>
-                            <div class="flex space-x-4 py-3">
-                                <a target="_blank" href="https://github.com/rono516/e_safi"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="m7.375 16.781l1.25-1.562L4.601 12l4.024-3.219l-1.25-1.562l-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219l1.25 1.562l5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003l-4 18l-1.953-.434l4-18z" />
-                                    </svg>
-                                </a>
-                                <a target="_blank" href="https://github.com/rono516/e_safi">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2l1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mx-auto p-5 hover:shadow-black hover:shadow-sm shadow-xl">
-                        <div class="flex flex-col bg-white ">
-                            <div class="hover:blur-sm">
-                                <img src="assets/elearn.png" alt="">
-                            </div>
-                            <div>
-                                <p class="pt-2 mt-2 text-xl text-gray-700 font-bold text-left">E-learning platform</p>
-                                <p class="pt-2 mt-2 text-left">A fullstack e-learning platform developed with Laravel,
-                                    Bootstrap to allow seamless learning online</p>
-
-                            </div>
-                            <div class="flex space-x-4 py-3">
-                                <a target="_blank" href="https://github.com/rono516/LMS"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="m7.375 16.781l1.25-1.562L4.601 12l4.024-3.219l-1.25-1.562l-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219l1.25 1.562l5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003l-4 18l-1.953-.434l4-18z" />
-                                    </svg>
-                                </a>
-                                <a target="_blank" href="https://github.com/rono516/LMS">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2l1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mx-auto p-5 hover:shadow-black hover:shadow-sm shadow-xl">
-                        <div class="flex flex-col bg-white ">
-                            <div class="hover:blur-sm">
-                                <img src="assets/frs.png" alt="">
-                            </div>
-                            <div>
-                                <p class="pt-2 mt-2 text-xl text-gray-700 font-bold text-left">Fast Remote Services</p>
-                                <p class="pt-2 mt-2 text-left">Website to showcase the services offered by the digital
-                                    learning company Fast Remote Services.</p>
-
-                            </div>
-                            <div class="flex space-x-4 py-3">
-                                <a target="_blank" href="https://fastremoteservices.co.ke/"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="m7.375 16.781l1.25-1.562L4.601 12l4.024-3.219l-1.25-1.562l-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219l1.25 1.562l5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003l-4 18l-1.953-.434l4-18z" />
-                                    </svg>
-                                </a>
-                                <a target="_blank" href="https://fastremoteservices.co.ke/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2l1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mx-auto p-5 hover:shadow-black hover:shadow-sm shadow-xl">
-                        <div class="flex flex-col bg-white ">
-                            <div class="hover:blur-sm">
-                                <img src="assets/projects.png" alt="">
-                            </div>
-                            <div>
-                                <p class="pt-2 mt-2 text-xl text-gray-700 font-bold text-left">Personal portfolio</p>
-                                <p class="pt-2 mt-2 text-left">A simple responsive website to showcase my skills in
-                                    Tailwind
-                                    and frontend development.</p>
-
-                            </div>
-                            <div class="flex space-x-4 py-3">
-                                <a target="_blank" href="https://ronocollins.netlify.app/"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="m7.375 16.781l1.25-1.562L4.601 12l4.024-3.219l-1.25-1.562l-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562l-1.25 1.562L19.399 12l-4.024 3.219l1.25 1.562l5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003l-4 18l-1.953-.434l4-18z" />
-                                    </svg>
-                                </a>
-                                <a target="_blank" href="https://ronocollins.netlify.app/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2l1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </section>
-
-        <!-- End projects section -->
-
-
-        <!-- Start Contact Section -->
-
-        <section id="contact">
-            <div class="text-center text-gray-700 text-3xl font-bold mt-10 py-10">
-                Let's connect
-            </div>
-
-            <!-- <div class="py-10 flex justify-center items-center">
+                <!-- <div class="py-10 flex justify-center items-center">
 
                 <form action="">
                     <div class="flex flex-col md:flex-row space-x-4 my-2">
@@ -390,155 +490,194 @@
 
             </div> -->
 
-            <!-- Contact details -->
-            <div class="text-center">
-                <div class="flex flex-col md:flex-row justify-center my-5">
-                    <div class="flex md:mr-5 flex-row md:flex-col mx-5 space-x-1 md:space-x-0 ">
-                        <div class="flex space-x-2">
-                            <div>
-                                <img height="25" width="25" src="assets/email.svg" alt="email logo">
+                <!-- Contact details -->
+                <div class="text-center">
+                    <div class="flex flex-col md:flex-row justify-center my-5">
+                        <div
+                            class="flex md:mr-5 flex-row md:flex-col mx-5 space-x-1 md:space-x-0 ">
+                            <div class="flex space-x-2">
+                                <div>
+                                    <img height="25" width="25"
+                                        src="assets/email.svg" alt="email logo">
+
+                                </div>
+                                <div class="font-bold text-gray-700">
+                                    Email:
+                                </div>
 
                             </div>
                             <div class="font-bold text-gray-700">
-                                Email:
+
+                                <a
+                                    href="mailto:ronocollins2000@gmail.com">ronocollins2000@gmail.com</a>
+
                             </div>
-
                         </div>
-                        <div class="font-bold text-gray-700">
+                        <div
+                            class="flex  flex-row mx-5 space-x-1 md:space-x-0 md:flex-col">
+                            <div class="flex space-x-2">
+                                <div>
+                                    <img height="25" width="25"
+                                        src="assets/call.svg" alt="call logo">
 
-                            <a href="mailto:ronocollins2000@gmail.com">ronocollins2000@gmail.com</a>
+                                </div>
+                                <div class="font-bold text-gray-700">
+                                    Call:
+                                </div>
 
+                            </div>
+                            <div class="font-bold font-sans text-gray-700">
+                                <a href="tel:+254792009556">+254792009556</a>
 
+                            </div>
                         </div>
                     </div>
-                    <div class="flex  flex-row mx-5 space-x-1 md:space-x-0 md:flex-col">
-                        <div class="flex space-x-2">
+                </div>
+                <!-- End contact details -->
+
+            </section>
+
+            <!-- End contact section -->
+
+            <!-- Footer Section -->
+
+            <section class="bg-gray-700 py-14" id="footer">
+                <div class="md:mx-28">
+                    <div
+                        class="grid md:grid-flow-col grid-flow-row justify-items-center">
+                        <div class="space-y-3">
+                            <div class>
+                                <p
+                                    class="text-white text-center md:text-start text-4xl ">Rono
+                                    Collins</p>
+                            </div>
+
+                            <div class>
+                                <div
+                                    class="flex md:items-start md:justify-start justify-center items-center space-x-3">
+
+                                    <a target="_blank"
+                                        href="https://github.com/rono516">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            x="0px" y="0px" width="30"
+                                            height="30"
+                                            viewBox="0,0,256,256">
+                                            <g fill="#4a5568"
+                                                fill-rule="nonzero"
+                                                stroke="none" stroke-width="1"
+                                                stroke-linecap="butt"
+                                                stroke-linejoin="miter"
+                                                stroke-miterlimit="10"
+                                                stroke-dasharray
+                                                stroke-dashoffset="0"
+                                                font-family="none"
+                                                font-weight="none"
+                                                font-size="none"
+                                                text-anchor="none"
+                                                style="mix-blend-mode: normal">
+                                                <g transform="scale(5.12,5.12)">
+                                                    <path
+                                                        d="M17.791,46.836c0.711,-0.306 1.209,-1.013 1.209,-1.836v-5.4c0,-0.197 0.016,-0.402 0.041,-0.61c-0.014,0.004 -0.027,0.007 -0.041,0.01c0,0 -3,0 -3.6,0c-1.5,0 -2.8,-0.6 -3.4,-1.8c-0.7,-1.3 -1,-3.5 -2.8,-4.7c-0.3,-0.2 -0.1,-0.5 0.5,-0.5c0.6,0.1 1.9,0.9 2.7,2c0.9,1.1 1.8,2 3.4,2c2.487,0 3.82,-0.125 4.622,-0.555c0.934,-1.389 2.227,-2.445 3.578,-2.445v-0.025c-5.668,-0.182 -9.289,-2.066 -10.975,-4.975c-3.665,0.042 -6.856,0.405 -8.677,0.707c-0.058,-0.327 -0.108,-0.656 -0.151,-0.987c1.797,-0.296 4.843,-0.647 8.345,-0.714c-0.112,-0.276 -0.209,-0.559 -0.291,-0.849c-3.511,-0.178 -6.541,-0.039 -8.187,0.097c-0.02,-0.332 -0.047,-0.663 -0.051,-0.999c1.649,-0.135 4.597,-0.27 8.018,-0.111c-0.079,-0.5 -0.13,-1.011 -0.13,-1.543c0,-1.7 0.6,-3.5 1.7,-5c-0.5,-1.7 -1.2,-5.3 0.2,-6.6c2.7,0 4.6,1.3 5.5,2.1c1.699,-0.701 3.599,-1.101 5.699,-1.101c2.1,0 4,0.4 5.6,1.1c0.9,-0.8 2.8,-2.1 5.5,-2.1c1.5,1.4 0.7,5 0.2,6.6c1.1,1.5 1.7,3.2 1.6,5c0,0.484 -0.045,0.951 -0.11,1.409c3.499,-0.172 6.527,-0.034 8.204,0.102c-0.002,0.337 -0.033,0.666 -0.051,0.999c-1.671,-0.138 -4.775,-0.28 -8.359,-0.089c-0.089,0.336 -0.197,0.663 -0.325,0.98c3.546,0.046 6.665,0.389 8.548,0.689c-0.043,0.332 -0.093,0.661 -0.151,0.987c-1.912,-0.306 -5.171,-0.664 -8.879,-0.682c-1.665,2.878 -5.22,4.755 -10.777,4.974v0.031c2.6,0 5,3.9 5,6.6v5.4c0,0.823 0.498,1.53 1.209,1.836c9.161,-3.032 15.791,-11.672 15.791,-21.836c0,-12.682 -10.317,-23 -23,-23c-12.683,0 -23,10.318 -23,23c0,10.164 6.63,18.804 15.791,21.836z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                    <a target="_blank"
+                                        href="https://twitter.com/collins_rono_">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            x="0px" y="0px" width="30"
+                                            height="30"
+                                            viewBox="0,0,256,256">
+                                            <g fill="#4a5568"
+                                                fill-rule="nonzero"
+                                                stroke="none" stroke-width="1"
+                                                stroke-linecap="butt"
+                                                stroke-linejoin="miter"
+                                                stroke-miterlimit="10"
+                                                stroke-dasharray
+                                                stroke-dashoffset="0"
+                                                font-family="none"
+                                                font-weight="none"
+                                                font-size="none"
+                                                text-anchor="none"
+                                                style="mix-blend-mode: normal">
+                                                <g transform="scale(5.12,5.12)">
+                                                    <path
+                                                        d="M50.0625,10.4375c-1.84766,0.82031 -3.82812,1.37109 -5.91016,1.62109c2.125,-1.27344 3.75781,-3.28906 4.52344,-5.6875c-1.98437,1.17578 -4.19141,2.03125 -6.53125,2.49219c-1.875,-2 -4.54687,-3.24609 -7.50391,-3.24609c-5.67969,0 -10.28516,4.60156 -10.28516,10.28125c0,0.80469 0.09375,1.58984 0.26953,2.34375c-8.54687,-0.42969 -16.12109,-4.52344 -21.19531,-10.74609c-0.88672,1.52344 -1.39062,3.28906 -1.39062,5.17187c0,3.56641 1.8125,6.71484 4.57422,8.5625c-1.6875,-0.05469 -3.27344,-0.51953 -4.66016,-1.28906c0,0.04297 0,0.08594 0,0.12891c0,4.98438 3.54688,9.13672 8.24609,10.08594c-0.85937,0.23438 -1.76953,0.35938 -2.70703,0.35938c-0.66406,0 -1.30859,-0.0625 -1.9375,-0.1875c1.3125,4.08203 5.10938,7.0625 9.60547,7.14453c-3.51562,2.75781 -7.94922,4.39844 -12.76953,4.39844c-0.83203,0 -1.64844,-0.04687 -2.44922,-0.14453c4.54687,2.92188 9.95312,4.62109 15.76172,4.62109c18.91406,0 29.25781,-15.66797 29.25781,-29.25391c0,-0.44531 -0.01172,-0.89453 -0.02734,-1.33203c2.00781,-1.44922 3.75,-3.26172 5.12891,-5.32422z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                    <a target="_blank"
+                                        href="https://www.facebook.com/collins.sharks.3">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            x="0px" y="0px" width="30"
+                                            height="30"
+                                            viewBox="0,0,256,256">
+                                            <g fill="#4a5568"
+                                                fill-rule="nonzero"
+                                                stroke="none" stroke-width="1"
+                                                stroke-linecap="butt"
+                                                stroke-linejoin="miter"
+                                                stroke-miterlimit="10"
+                                                stroke-dasharray
+                                                stroke-dashoffset="0"
+                                                font-family="none"
+                                                font-weight="none"
+                                                font-size="none"
+                                                text-anchor="none"
+                                                style="mix-blend-mode: normal">
+                                                <g transform="scale(5.12,5.12)">
+                                                    <path
+                                                        d="M25,3c-12.15,0 -22,9.85 -22,22c0,11.03 8.125,20.137 18.712,21.728v-15.897h-5.443v-5.783h5.443v-3.848c0,-6.371 3.104,-9.168 8.399,-9.168c2.536,0 3.877,0.188 4.512,0.274v5.048h-3.612c-2.248,0 -3.033,2.131 -3.033,4.533v3.161h6.588l-0.894,5.783h-5.694v15.944c10.738,-1.457 19.022,-10.638 19.022,-21.775c0,-12.15 -9.85,-22 -22,-22z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="text-white flex flex-row md:flex-col space-x-3 my-2 md:space-x-0 md:m-0  ">
                             <div>
-                                <img height="25" width="25" src="assets/call.svg" alt="call logo">
-
+                                Home
                             </div>
-                            <div class="font-bold text-gray-700">
-                                Call:
+                            <div>
+                                Projects
                             </div>
-
+                            <div>
+                                Resume
+                            </div>
+                            <div>
+                                Contact
+                            </div>
                         </div>
-                        <div class="font-bold font-sans text-gray-700">
-                            <a href="tel:+254792009556">+254792009556</a>
-
+                        <div class="text-white">
+                            <div>
+                                Web development
+                            </div>
+                            <div>
+                                App development
+                            </div>
+                            <div>
+                                Mentoring
+                            </div>
+                            <div>
+                                Connect with me
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- End contact details -->
+            </section>
 
+            <!-- End footer Section -->
+        </main>
 
-
-        </section>
-
-        <!-- End contact section -->
-
-        <!-- Footer Section -->
-
-        <section class="bg-gray-700 py-14" id="footer">
-            <div class="md:mx-28">
-                <div class="grid md:grid-flow-col grid-flow-row justify-items-center">
-                    <div class="space-y-3">
-                        <div class="">
-                            <p class="text-white text-center md:text-start text-4xl ">Rono Collins</p>
-                        </div>
-
-                        <div class="">
-                            <div class="flex md:items-start md:justify-start justify-center items-center space-x-3">
-
-
-                                <a target="_blank" href="https://github.com/rono516">
-                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
-                                        viewBox="0,0,256,256">
-                                        <g fill="#4a5568" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <g transform="scale(5.12,5.12)">
-                                                <path
-                                                    d="M17.791,46.836c0.711,-0.306 1.209,-1.013 1.209,-1.836v-5.4c0,-0.197 0.016,-0.402 0.041,-0.61c-0.014,0.004 -0.027,0.007 -0.041,0.01c0,0 -3,0 -3.6,0c-1.5,0 -2.8,-0.6 -3.4,-1.8c-0.7,-1.3 -1,-3.5 -2.8,-4.7c-0.3,-0.2 -0.1,-0.5 0.5,-0.5c0.6,0.1 1.9,0.9 2.7,2c0.9,1.1 1.8,2 3.4,2c2.487,0 3.82,-0.125 4.622,-0.555c0.934,-1.389 2.227,-2.445 3.578,-2.445v-0.025c-5.668,-0.182 -9.289,-2.066 -10.975,-4.975c-3.665,0.042 -6.856,0.405 -8.677,0.707c-0.058,-0.327 -0.108,-0.656 -0.151,-0.987c1.797,-0.296 4.843,-0.647 8.345,-0.714c-0.112,-0.276 -0.209,-0.559 -0.291,-0.849c-3.511,-0.178 -6.541,-0.039 -8.187,0.097c-0.02,-0.332 -0.047,-0.663 -0.051,-0.999c1.649,-0.135 4.597,-0.27 8.018,-0.111c-0.079,-0.5 -0.13,-1.011 -0.13,-1.543c0,-1.7 0.6,-3.5 1.7,-5c-0.5,-1.7 -1.2,-5.3 0.2,-6.6c2.7,0 4.6,1.3 5.5,2.1c1.699,-0.701 3.599,-1.101 5.699,-1.101c2.1,0 4,0.4 5.6,1.1c0.9,-0.8 2.8,-2.1 5.5,-2.1c1.5,1.4 0.7,5 0.2,6.6c1.1,1.5 1.7,3.2 1.6,5c0,0.484 -0.045,0.951 -0.11,1.409c3.499,-0.172 6.527,-0.034 8.204,0.102c-0.002,0.337 -0.033,0.666 -0.051,0.999c-1.671,-0.138 -4.775,-0.28 -8.359,-0.089c-0.089,0.336 -0.197,0.663 -0.325,0.98c3.546,0.046 6.665,0.389 8.548,0.689c-0.043,0.332 -0.093,0.661 -0.151,0.987c-1.912,-0.306 -5.171,-0.664 -8.879,-0.682c-1.665,2.878 -5.22,4.755 -10.777,4.974v0.031c2.6,0 5,3.9 5,6.6v5.4c0,0.823 0.498,1.53 1.209,1.836c9.161,-3.032 15.791,-11.672 15.791,-21.836c0,-12.682 -10.317,-23 -23,-23c-12.683,0 -23,10.318 -23,23c0,10.164 6.63,18.804 15.791,21.836z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </a>
-                                <a target="_blank" href="https://twitter.com/collins_rono_">
-                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
-                                        viewBox="0,0,256,256">
-                                        <g fill="#4a5568" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <g transform="scale(5.12,5.12)">
-                                                <path
-                                                    d="M50.0625,10.4375c-1.84766,0.82031 -3.82812,1.37109 -5.91016,1.62109c2.125,-1.27344 3.75781,-3.28906 4.52344,-5.6875c-1.98437,1.17578 -4.19141,2.03125 -6.53125,2.49219c-1.875,-2 -4.54687,-3.24609 -7.50391,-3.24609c-5.67969,0 -10.28516,4.60156 -10.28516,10.28125c0,0.80469 0.09375,1.58984 0.26953,2.34375c-8.54687,-0.42969 -16.12109,-4.52344 -21.19531,-10.74609c-0.88672,1.52344 -1.39062,3.28906 -1.39062,5.17187c0,3.56641 1.8125,6.71484 4.57422,8.5625c-1.6875,-0.05469 -3.27344,-0.51953 -4.66016,-1.28906c0,0.04297 0,0.08594 0,0.12891c0,4.98438 3.54688,9.13672 8.24609,10.08594c-0.85937,0.23438 -1.76953,0.35938 -2.70703,0.35938c-0.66406,0 -1.30859,-0.0625 -1.9375,-0.1875c1.3125,4.08203 5.10938,7.0625 9.60547,7.14453c-3.51562,2.75781 -7.94922,4.39844 -12.76953,4.39844c-0.83203,0 -1.64844,-0.04687 -2.44922,-0.14453c4.54687,2.92188 9.95312,4.62109 15.76172,4.62109c18.91406,0 29.25781,-15.66797 29.25781,-29.25391c0,-0.44531 -0.01172,-0.89453 -0.02734,-1.33203c2.00781,-1.44922 3.75,-3.26172 5.12891,-5.32422z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </a>
-                                <a target="_blank" href="https://www.facebook.com/collins.sharks.3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
-                                        viewBox="0,0,256,256">
-                                        <g fill="#4a5568" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <g transform="scale(5.12,5.12)">
-                                                <path
-                                                    d="M25,3c-12.15,0 -22,9.85 -22,22c0,11.03 8.125,20.137 18.712,21.728v-15.897h-5.443v-5.783h5.443v-3.848c0,-6.371 3.104,-9.168 8.399,-9.168c2.536,0 3.877,0.188 4.512,0.274v5.048h-3.612c-2.248,0 -3.033,2.131 -3.033,4.533v3.161h6.588l-0.894,5.783h-5.694v15.944c10.738,-1.457 19.022,-10.638 19.022,-21.775c0,-12.15 -9.85,-22 -22,-22z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="text-white flex flex-row md:flex-col space-x-3 my-2 md:space-x-0 md:m-0  ">
-                        <div>
-                            Home
-                        </div>
-                        <div>
-                            Projects
-                        </div>
-                        <div>
-                            Resume
-                        </div>
-                        <div>
-                            Contact
-                        </div>
-                    </div>
-                    <div class="text-white">
-                        <div>
-                            Web development
-                        </div>
-                        <div>
-                            App development
-                        </div>
-                        <div>
-                            Mentoring
-                        </div>
-                        <div>
-                            Connect with me
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- End footer Section -->
-    </main>
-
-    <script>
+        <script>
         function validate_form() {
             var contact_name = document.forms["contactForm"]['first_name'].value;
             var contact_email = document.forms["contactForm"]['email'].value;
@@ -567,9 +706,7 @@
         }
     </script>
 
-
-
-    <script>
+        <script>
         function toggleMenu() {
             var navbar = document.getElementById("navbar");
             navbar.classList.toggle("hidden");
@@ -577,11 +714,11 @@
         }
     </script>
 
+        <script
+            src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script
+            src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
-
-</body>
+    </body>
 
 </html>
